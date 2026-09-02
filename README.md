@@ -82,19 +82,19 @@ official source for any date or quote you add.
 
 - [42. Slackware](#42-slackware)
 - [43. antiX Linux](#43-antix-linux)
-- [44. Zorin OS](#44-zorin-os)
-- [45. Parabola GNU/Linux-libre](#45-parabola-gnulinux-libre)
-- [46. Peppermint OS](#46-peppermint-os)
-- [47. SparkyLinux](#47-sparkylinux)
-- [48. Raspberry Pi OS](#48-raspberry-pi-os)
-- [49. Bedrock Linux](#49-bedrock-linux)
-- [50. BlackArch](#50-blackarch)
-- [51. MX Linux](#51-mx-linux)
-- [52. Archman Linux](#52-archman-linux)
-- [53. RebornOS](#53-rebornos)
-- [54. Archcraft](#54-archcraft)
-- [55. Asahi Linux](#55-asahi-linux)
-- [56. Bluefin](#56-bluefin)
+- [44. Tiny Core Linux](#44-tiny-core-linux)
+- [45. Zorin OS](#45-zorin-os)
+- [46. Parabola GNU/Linux-libre](#46-parabola-gnulinux-libre)
+- [47. Peppermint OS](#47-peppermint-os)
+- [48. SparkyLinux](#48-sparkylinux)
+- [49. Raspberry Pi OS](#49-raspberry-pi-os)
+- [50. Bedrock Linux](#50-bedrock-linux)
+- [51. BlackArch](#51-blackarch)
+- [52. MX Linux](#52-mx-linux)
+- [53. Archman Linux](#53-archman-linux)
+- [54. RebornOS](#54-rebornos)
+- [55. Archcraft](#55-archcraft)
+- [56. Asahi Linux](#56-asahi-linux)
 
 **III. Systems Independent (GNU)**
 
@@ -984,7 +984,25 @@ their official project resources.*
 
 ------------------------------------------------------------------------
 
-## 44. Zorin OS
+## 44. Tiny Core Linux
+
+
+-   **Initial Release:** Jan 2009
+-   **Official Website:** <http://www.tinycorelinux.net>
+-   **Overview:** Tiny Core Linux is a minimal system built on BusyBox
+    and FLTK that, in the project's own words, *"represents only the
+    core needed to boot into a very minimal X desktop"* — everything
+    beyond that arrives as user-selected extensions from an online
+    repository; for example, it ships in three sizes: a text-only Core
+    at roughly 17 MB, the FLWM-based TinyCore desktop at about 24 MB,
+    and CorePlus bundling optional extras, and by default it
+    decompresses entirely into RAM at boot rather than installing to
+    disk, which is much of the reason it runs so quickly on hardware
+    other distributions have long abandoned.
+
+------------------------------------------------------------------------
+
+## 45. Zorin OS
 
 -   **Initial Release:** 2009
 -   **Official Website:** <https://zorin.com/os/>
@@ -998,7 +1016,7 @@ their official project resources.*
 
 ------------------------------------------------------------------------
 
-## 45. Parabola GNU/Linux-libre
+## 46. Parabola GNU/Linux-libre
 
 -   **Initial Release:** Oct 2009
 -   **Official Website:** <https://www.parabola.nu>
@@ -1016,7 +1034,7 @@ their official project resources.*
 
 ------------------------------------------------------------------------
 
-## 46. Peppermint OS
+## 47. Peppermint OS
 
 -   **Initial Release:** May 2010
 -   **Official Website:** <https://peppermintos.com>
@@ -1032,7 +1050,7 @@ their official project resources.*
 
 ------------------------------------------------------------------------
 
-## 47. SparkyLinux
+## 48. SparkyLinux
 
 -   **Initial Release:** Oct 2011
 -   **Official Website:** <https://sparkylinux.org>
@@ -1048,7 +1066,7 @@ their official project resources.*
 
 ------------------------------------------------------------------------
 
-## 48. Raspberry Pi OS
+## 49. Raspberry Pi OS
 
 -   **Initial Release:** Jul 2012 (as Raspbian); renamed Raspberry Pi OS
     in May 2020
@@ -1063,7 +1081,7 @@ their official project resources.*
 
 ------------------------------------------------------------------------
 
-## 49. Bedrock Linux
+## 50. Bedrock Linux
 
 -   **Initial Release:** Aug 2012
 -   **Official Website:** <https://bedrocklinux.org>
@@ -1081,7 +1099,7 @@ their official project resources.*
 
 ------------------------------------------------------------------------
 
-## 50. BlackArch
+## 51. BlackArch
 
 -   **Initial Release:** Aug 2012
 -   **Official Website:** <https://blackarch.org>
@@ -1095,7 +1113,7 @@ their official project resources.*
 
 ------------------------------------------------------------------------
 
-## 51. MX Linux
+## 52. MX Linux
 
 -   **Initial Release:** Dec 2013
 -   **Official Website:** <https://mxlinux.org>
@@ -1109,7 +1127,7 @@ their official project resources.*
 
 ------------------------------------------------------------------------
 
-## 52. Archman Linux
+## 53. Archman Linux
 
 -   **Initial Release:** Mar 2017
 -   **Official Website:** <https://archman.org>
@@ -1125,7 +1143,7 @@ their official project resources.*
 
 ------------------------------------------------------------------------
 
-## 53. RebornOS
+## 54. RebornOS
 
 -   **Initial Release:** 2018
 -   **Official Website:** <https://rebornos.org>
@@ -1140,7 +1158,7 @@ their official project resources.*
 
 ------------------------------------------------------------------------
 
-## 54. Archcraft
+## 55. Archcraft
 
 -   **Initial Release:** Q4 2020
 -   **Official Website:** <https://archcraft.io>
@@ -1156,7 +1174,7 @@ their official project resources.*
 
 ------------------------------------------------------------------------
 
-## 55. Asahi Linux
+## 56. Asahi Linux
 
 -   **Initial Release:** Q4 2020, Q1 2021
 -   **Official Website:** <https://asahilinux.org>
@@ -1167,23 +1185,6 @@ their official project resources.*
     scratch; for example, the project's own Fedora Asahi Remix now
     supports OpenGL and Vulkan graphics on M1 and M2 Macs, hardware
     Apple itself never offered official Linux drivers for.
-
-------------------------------------------------------------------------
-
-## 56. Bluefin
-
--   **Initial Release:** Jul 2021
--   **Official Website:** <https://projectbluefin.io>
--   **GitHub:** <https://github.com/ublue-os/bluefin>
--   **Project Reference GitHub:** <https://github.com/ublue-os>
--   **Overview:** Bluefin — *"the next generation Linux workstation,
-    designed for reliability, performance, and sustainability"* — is a
-    Fedora Atomic-based workstation built by the Universal Blue
-    project around an immutable base image; for example, its `ujust`
-    command runs pre-written setup scripts for
-    tasks like enabling gaming tools or developer containers, and any
-    update that breaks something can be rolled back by simply booting
-    into the previous image.
 
 ------------------------------------------------------------------------
 
