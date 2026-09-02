@@ -19,9 +19,34 @@ repositories, and a short overview quoting the project's own words.
 > Raspberry Pi OS is dated from Raspbian (2012) and Solus from
 > Evolve OS (2014).
 
-**Contributions welcome.** Corrections, missing systems, and dead links
-are all fair game — open an issue or a pull request. Please cite an
-official source for any date or quote you add.
+## Downloads
+
+| Format | Description |
+| --- | --- |
+| [PDF](Operating-Systems-Reference.pdf) | 31 pages, printable, with clickable links |
+| [JSON](operating-systems.json) | Structured data — build something on top of it |
+| [CSV](operating-systems.csv) | Opens directly in Excel or LibreOffice |
+
+The PDF, JSON, and CSV are all generated from this file, so they stay in
+step with it.
+
+## Contributing
+
+Corrections, missing systems, and dead links are all fair game — open an
+issue or a pull request. A few conventions keep the file consistent:
+
+- **Dates** are the first *public* release, not a rename or a founding
+  announcement. Cite the source.
+- **Quotes** come from the project's own site or repository, kept short.
+- **Repositories**: if a project's GitHub is a mirror, label it as one
+  and link the canonical tree.
+- One system per pull request keeps review easy.
+
+## License
+
+Licensed under [CC BY-SA 4.0](LICENSE). Quotations remain the property
+of their respective projects and are used for identification and
+commentary.
 
 ## Table of Contents
 
