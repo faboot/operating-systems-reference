@@ -3,7 +3,7 @@
   "description": "A chronological reference of operating systems — release dates, official repositories, and descriptions in each project's own words.",
   "source": "https://github.com/faboot/operating-systems-reference",
   "license": "CC BY-SA 4.0",
-  "generated": "2026-09-02",
+  "generated": "2026-09-04",
   "count": 88,
   "systems": [
     {
@@ -463,7 +463,8 @@
       "family_number": "II",
       "initial_release": "Dec 2022, Jan 2023",
       "links": {
-        "Official Website": "https://wiki.pika-os.com/en/home",
+        "Official Website": "https://pika-os.com",
+        "Docs/Wiki": "https://wiki.pika-os.com/en/home",
         "Source Repository": "https://git.pika-os.com",
         "GitHub (former home)": "https://github.com/PikaOS-Linux"
       },
