@@ -23,12 +23,11 @@ repositories, and a short overview quoting the project's own words.
 
 | Format | Description |
 | --- | --- |
-| [PDF](Operating-Systems-Reference.pdf) | 31 pages, printable, with clickable links |
 | [JSON](operating-systems.json) | Structured data — build something on top of it |
 | [CSV](operating-systems.csv) | Opens directly in Excel or LibreOffice |
 
-The PDF, JSON, and CSV are all generated from this file, so they stay in
-step with it.
+The JSON and CSV are generated from this file, so they stay in step
+with it.
 
 ## Contributing
 
@@ -820,16 +819,17 @@ their official project resources.*
 ## 33. PikaOS Linux
 
 -   **Initial Release:** Dec 2022, Jan 2023
--   **Official Website:** <https://wiki.pika-os.com/en/home>
+-   **Official Website:** <https://pika-os.com>
+-   **Docs/Wiki:** <https://wiki.pika-os.com/en/home>
 -   **Source Repository:** <https://git.pika-os.com>
 -   **GitHub (former home):** <https://github.com/PikaOS-Linux>
 -   **Overview:** PikaOS is a Debian/Ubuntu-based Linux distribution —
     *"a gaming focused Linux distribution focussing on ease of use and
     high compatability"* — built by taking the gaming know-how behind
-    Nobara — patched kernels, Wine/Proton tuning, and
-    driver fixes aimed at running Windows games well — and pairing it
-    with Ubuntu's broad hardware support and package base, so it works
-    well for gaming out of the box without much manual tinkering.
+    Nobara — patched kernels, Wine/Proton tuning, and driver fixes
+    aimed at running Windows games well — and pairing it with Ubuntu's
+    broad hardware support and package base, so it works well for
+    gaming out of the box without much manual tinkering.
 
 ------------------------------------------------------------------------
 
